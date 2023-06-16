@@ -4,6 +4,6 @@ Name=Install Nested Gamescope Session
 Exec=sh -c "curl https://sugoidogo.github.io/gamescope-session-nested/gsn-install.sh | bash"
 Icon=steamdeck-gaming-return
 Terminal=true
-TerminalOptions=\s--noclose
+TerminalOptions=--noclose
 Type=Application
 StartupNotify=false
