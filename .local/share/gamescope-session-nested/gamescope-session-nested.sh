@@ -2,8 +2,8 @@
 
 set -xeuo pipefail
 
-if pgrep steam; then steam -shutdown; fi
-while pgrep steam; do sleep 1; done
+if pgrep -x steam; then steam -shutdown; fi
+while pgrep -x steam; do sleep 1; done
 pkill -xe gamescope || true
 
 systemd-run --user --pty --pipe \
