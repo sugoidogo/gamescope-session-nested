@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "gamescope call intercepted, adding fullscreen flag"
+$GAMESCOPE -f "$@"

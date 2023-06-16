@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Start Steam in a GameScope session with all Steam Deck features enabled
+Exec=bash ~/.local/share/gamescope-session-nested/gamescope-session-nested.sh
+Icon=steam
+Name=Steam GameScope
+Type=Application
+Categories=Game;
