@@ -4,4 +4,5 @@ Exec=bash ~/.local/share/gamescope-session-nested/gamescope-session-nested.sh
 Icon=steam
 Name=Steam GameScope
 Type=Application
+Terminal=true
 Categories=Game;
