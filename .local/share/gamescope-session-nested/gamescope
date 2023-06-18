@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "gamescope call intercepted, adding fullscreen flag"
-$GAMESCOPE -f "$@"
+set -x
+source ~/.config/environment.d/*.conf
+/usr/bin/gamescope -W $SCREEN_WIDTH -H $SCREEN_HEIGHT "$@"
