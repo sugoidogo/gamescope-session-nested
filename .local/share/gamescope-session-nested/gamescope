@@ -1,4 +1,0 @@
-#!/bin/bash
-set -x
-source ~/.config/environment.d/*.conf
-/usr/bin/gamescope -W $SCREEN_WIDTH -H $SCREEN_HEIGHT "$@"
